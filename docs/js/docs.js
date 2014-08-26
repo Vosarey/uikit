@@ -22,6 +22,14 @@
             e.preventDefault();
         });
 
+        $(window).scroll(function(){
+            if ($(window).scrollTop()>200){
+                $("#goTop").fadeIn(300);
+            }else{
+                $("#goTop").fadeOut(200);
+            }
+        });
+
     });
 
 })(jQuery);

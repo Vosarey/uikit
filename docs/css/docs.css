@@ -30,7 +30,7 @@
 }
 
 body, h1, h2, h3, h4, h5, h6,
-.uk-navbar-nav > li > a { font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.uk-navbar-nav > li > a { font-family: Helvetica, STHeiti STXihei, Microsoft JhengHei, Microsoft YaHei, Tohoma, Arial; }
 
 
 /* Base
@@ -255,6 +255,8 @@ html {
 .tm-footer,
 .tm-footer a { color: #ddd !important; }
 .tm-footer a:hover { color: #fff !important; }
+
+#goTop{ display: none; position: fixed; right: 30px; bottom: 30px; }
 
 
 /* UIkit component modifiers

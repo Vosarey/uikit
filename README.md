@@ -1,11 +1,11 @@
 # UIkit
 
-UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.
+UIkit是一个轻量级、模块化的前端框架，可快速构建强大的web前端界面。
 
-* [Homepage](http://getuikit.com) - Learn more about UIkit
-* [@getuikit](https://twitter.com/getuikit) - Get the latest buzz on Twitter
-* [Issues](http://github.com/uikit/uikit/issues) - Report bugs
-* [Google+](https://plus.google.com/communities/114238665434626719878) - Share news and latest work
+* [UIkit中文网](http://getuikit.net) - 进一步了解 UIkit
+* [@getuikit](http://weibo.com/getuikit) - 关注新浪微博
+* [Issues](http://github.com/uikit/uikit/issues) - 问题反馈
+* [Google+](https://plus.google.com/communities/114238665434626719878) - 分享资讯及最新作品
 
 ## Getting started
 
