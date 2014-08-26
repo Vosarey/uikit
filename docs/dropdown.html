@@ -6,7 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Dropdown component - UIkit中文文档</title>
-
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
         <link id="data-uikit-theme" rel="stylesheet" href="css/uikit.docs.min.css">
@@ -49,19 +48,19 @@
 
                         <ul class="tm-nav uk-nav" data-uk-nav>
 
-                            <li class="uk-nav-header">Defaults</li>
+                            <li class="uk-nav-header">默认</li>
                             <li><a href="normalize.html">Normalize</a></li>
                             <li><a href="base.html">Base</a></li>
                             <li><a href="print.html">Print</a></li>
 
-                            <li class="uk-nav-header">Layout</li>
+                            <li class="uk-nav-header">布局</li>
                             <li><a href="grid.html">Grid</a></li>
                             <li><a href="panel.html">Panel</a></li>
                             <li><a href="article.html">Article</a></li>
                             <li><a href="comment.html">Comment</a></li>
                             <li><a href="utility.html">Utility</a></li>
 
-                            <li class="uk-nav-header">Navigations</li>
+                            <li class="uk-nav-header">导航</li>
                             <li><a href="nav.html">Nav</a></li>
                             <li><a href="navbar.html">Navbar</a></li>
                             <li><a href="subnav.html">Subnav</a></li>
@@ -69,13 +68,13 @@
                             <li><a href="pagination.html">Pagination</a></li>
                             <li><a href="tab.html">Tab</a></li>
 
-                            <li class="uk-nav-header">Elements</li>
+                            <li class="uk-nav-header">元素</li>
                             <li><a href="list.html">List</a></li>
                             <li><a href="description-list.html">Description list</a></li>
                             <li><a href="table.html">Table</a></li>
                             <li><a href="form.html">Form</a></li>
 
-                            <li class="uk-nav-header">Common</li>
+                            <li class="uk-nav-header">常用</li>
                             <li><a href="button.html">Button</a></li>
                             <li><a href="icon.html">Icon</a></li>
                             <li><a href="close.html">Close</a></li>
@@ -108,7 +107,7 @@
 
                             <p class="uk-article-lead">Defines different styles for a toggleable dropdown.</p>
 
-                            <h2 id="usage"><a href="#usage" class="uk-link-reset">Usage</a></h2>
+                            <h2 id="usage"><a href="#usage" class="uk-link-reset" title="Usage">用法</a></h2>
 
                             <p>Any content, like a button, can toggle a dropdown. Just wrap the toggle with a <code>&lt;div&gt;</code> element and add the <code>data-uk-dropdown</code> attribute. Add the <code>.uk-dropdown</code> class to a child <code>&lt;div&gt;</code> element to create the dropdown itself. A dropdown can be enabled by either hovering or clicking the the toggle.</p>
 
@@ -116,8 +115,8 @@
                                 <table class="uk-table">
                                     <thead>
                                         <tr>
-                                            <th>Data attribute</th>
-                                            <th>Description</th>
+                                            <th>Data属性</th>
+                                            <th>概述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -133,9 +132,9 @@
                                 </table>
                             </div>
 
-                            <p><span class="uk-badge uk-badge-danger">IMPORTANT</span> To apply a dropdown, it is important that a parent element has a relative position to align the dropdown properly. Many components create the position context by default, like the <a href="button.html">Button</a>, <a href="navbar.html">Navbar</a>, <a href="subnav.html">Subnav</a> and the <a href="tab.html">Tab</a> component.</p>
+                            <p><span class="uk-badge uk-badge-danger">重要</span> To apply a dropdown, it is important that a parent element has a relative position to align the dropdown properly. Many components create the position context by default, like the <a href="button.html">Button</a>, <a href="navbar.html">Navbar</a>, <a href="subnav.html">Subnav</a> and the <a href="tab.html">Tab</a> component.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-margin">
 
@@ -171,7 +170,7 @@
 
                             </div>
 
-                            <p><span class="uk-badge">NOTE</span> In this example we are using a button from the <a href="button.html">Button component</a> as a toggle.</p>
+                            <p><span class="uk-badge">注意</span> In this example we are using a button from the <a href="button.html">Button component</a> as a toggle.</p>
 
                             <h3 class="tm-article-subtitle">Markup</h3>
 
@@ -246,8 +245,8 @@
                                 <table class="uk-table uk-text-nowrap">
                                     <thead>
                                         <tr>
-                                            <th>Class</th>
-                                            <th>Description</th>
+                                            <th>类</th>
+                                            <th>概述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -267,7 +266,7 @@
                                 </table>
                             </div>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-button-dropdown" data-uk-dropdown>
                                 <button class="uk-button">Flip <i class="uk-icon-caret-down"></i></button>
@@ -334,7 +333,7 @@
 
                             <p>To justify a dropdown, just add the <code>data-uk-dropdown="{justify:'#ID'}"</code> attribute. The parent element, to which the dropdown should be justified, needs to have the target id, so the dropdown will expand to the full width of the targeted element.</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <div id="justify1">
                                 <div class="uk-button-dropdown" data-uk-dropdown="{justify:'#justify1'}">
@@ -374,7 +373,7 @@
 
                             <p>By default, the dropdown flips automatically when it exceeds the viewport's edge. If you want to flip it according to a container's boundary, just add the <code>data-uk-dropdown="{boundary:'#ID'}"</code> attribute, using a selector for the container.</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <div id="boundary" class="uk-button-dropdown" data-uk-dropdown="{boundary:'#boundary'}">
                                 <button class="uk-button">Boundary <i class="uk-icon-caret-down"></i></button>
@@ -403,7 +402,7 @@
 
                             <p>You can even place a grid from the <a href="grid.html">Grid component</a> inside a dropdown, which can hold a navigation or any other content. Just wrap the content with a <code>&lt;div&gt;</code> and add the <code>.uk-grid</code> class. To optimize the grid for use inside the dropdown, add the <code>.uk-dropdown-grid</code> class. Add one of the <code>.uk-dropdown-width-*</code> classes to the grid's child elements to multiply the dropdown's width by up to 5.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-button-dropdown" data-uk-dropdown>
                                 <button class="uk-button">2 Columns <i class="uk-icon-caret-down"></i></button>
@@ -514,7 +513,7 @@
 
                             <p>By default, the dropdown has a fixed width and the text is wrapping into the next line. If you want your dropdown to be smaller, so that it extends to the width of its content without the text wrapping, add the <code>.uk-dropdown-small</code> class. This is useful for button dropdowns.</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <div class="uk-button-dropdown" data-uk-dropdown>
                                 <button class="uk-button">Dropdown <i class="uk-icon-caret-down"></i></button>
@@ -541,7 +540,7 @@
 
                             <p>To give the dropdown a fixed height and enable its content to scroll, just add the <code>.uk-dropdown-scrollable</code> class.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-button-dropdown" data-uk-dropdown>
                                 <button class="uk-button">Dropdown <i class="uk-icon-caret-down"></i></button>
@@ -572,7 +571,7 @@
 
                             <p>Dropdowns are an essential part of a navbar from the <a href="navbar.html">Navbar component</a>. Just add the <code>.uk-dropdown-navbar</code> class to the dropdown, so the dropdown fits perfectly into the navbar.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <nav class="uk-navbar">
 
@@ -627,7 +626,7 @@
 
                             <p>A button from the <a href="button.html">Button component</a> can be used to trigger a dropdown menu.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-margin" data-uk-margin>
 
@@ -732,7 +731,7 @@
 
                             <p>Use button groups from the <a href="button.html">Button component</a> to split buttons into a standard action and a dropdown toggle.</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <div class="uk-margin" data-uk-margin>
                                 <div class="uk-button-group">
@@ -856,7 +855,7 @@
 
                             <p>Dropdowns can also be applied to a subnav from the <a href="subnav.html">Subnav component</a>.</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <ul class="uk-subnav uk-subnav-pill">
                                 <li class="uk-active"><a href="#">Active</a></li>
@@ -904,7 +903,7 @@
 
                             <p>Dropdowns can be used on a tab from the <a href="tab.html">Tab component</a>.</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <ul class="uk-tab uk-width-medium-1-2" data-uk-tab>
                                 <li class="uk-active"><a href="#">Tab One</a></li>
@@ -948,7 +947,7 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="javascript-options"><a href="#javascript-options" class="uk-link-reset">JavaScript options</a></h2>
+                            <h2 id="javascript-options"><a href="#javascript-options" class="uk-link-reset">JavaScript 选项</a></h2>
 
                             <p>This is an example of how to set options via attribute:</p>
 
@@ -958,10 +957,10 @@
                                 <table class="uk-table uk-table-striped">
                                     <thead>
                                         <tr>
-                                            <th>Option</th>
-                                            <th>Possible value</th>
-                                            <th>Default</th>
-                                            <th>Description</th>
+                                            <th>选项</th>
+                                            <th>可选值</th>
+                                            <th>默认</th>
+                                            <th>概述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -1000,7 +999,7 @@
                             </div>
 
 
-                            <h3>Events</h3>
+                            <h3>事件</h3>
 
                             <p>You can bind callbacks to following events for custom functionality:</p>
 
@@ -1009,7 +1008,7 @@
                                     <thead>
                                         <tr>
                                             <th>Name</th>
-                                            <th>Description</th>
+                                            <th>概述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -1025,7 +1024,7 @@
                                 </table>
                             </div>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
 <pre><code>$('[data-uk-dropdown]').on('uk.dropdown.show', function(){
     // custom code...

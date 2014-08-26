@@ -6,7 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Create a theme - UIkit中文文档</title>
-
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
         <link id="data-uikit-theme" rel="stylesheet" href="css/uikit.docs.min.css">
@@ -79,13 +78,13 @@
 
                             <p>Download or clone UIkit and install Node and Grunt. Finally create your theme folder here <code>/themes/custom/THEME-NAME</code>.</p>
 
-                            <p><span class="uk-badge">NOTE</span> The <code>/custom</code> folder is set to git ignore, which prevents your custom files from being pushed into the UIkit repository. If you are working with a cloned version of UIkit's git repository, it is a good practice to have <code>/custom</code> as your own git repository. That way your theme files are under version control without interfering with the UIkit files.</p>
+                            <p><span class="uk-badge">注意</span> The <code>/custom</code> folder is set to git ignore, which prevents your custom files from being pushed into the UIkit repository. If you are working with a cloned version of UIkit's git repository, it is a good practice to have <code>/custom</code> as your own git repository. That way your theme files are under version control without interfering with the UIkit files.</p>
 
                             <h3>2. Add your theme</h3>
 
                             <p>Create the <code>uikit.less</code> file in the <code>/themes/custom/THEME-NAME</code> folder and add the <code>@import "../../../src/less/uikit.less";</code> rule to access all LESS files from the core framework and adopt its basic styling. That's it! You can start adding your own theme from scratch.</p>
 
-                            <p><span class="uk-badge">NOTE</span> To get you started right away, we provide the default, gradient and almost-flat theme. All default files are already imported and you will also find all theme files with their related hooks. So all you need to do is to duplicate and rename the folder into the <code>/custom</code> directory.</p>
+                            <p><span class="uk-badge">注意</span> To get you started right away, we provide the default, gradient and almost-flat theme. All default files are already imported and you will also find all theme files with their related hooks. So all you need to do is to duplicate and rename the folder into the <code>/custom</code> directory.</p>
 
                             <h3>3. Customizer and Tests</h3>
 
@@ -101,7 +100,7 @@
 
                             <p>The first thing to do is to customize the values of already declared variables. You can find all variables for each component inside their LESS files of the core framework and override them in your theme.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-grid" data-uk-grid-margin>
                                 <div class="uk-width-medium-1-2">
@@ -123,7 +122,7 @@
                             <h3>2. Use hooks</h3>
                             <p>To prevent overhead selectors, we use Mixins from <a href="http://lesscss.org">LESS</a>, which hook into predefined selectors from the UIkit source and apply additional properties. Selectors don't have to be repeated throughout all documents and gobal changes can be made much more easily.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-grid" data-uk-grid-margin>
                                 <div class="uk-width-medium-1-2">
@@ -156,7 +155,7 @@
                             <h3>3. Miscellaneous hooks</h3>
                             <p>Should there be neither a variable nor a hook available, you can of course create your own selector. To do so, use the <em>.hook-panel-misc</em> hook and write your selector inside. This will sort your new selector to the right place of the compiled CSS file.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-width-medium-1-2">
 
