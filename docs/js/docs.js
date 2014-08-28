@@ -30,6 +30,12 @@
             }
         });
 
+        $('.ds-thread').attr({
+            'data-thread-key':window.location.pathname,
+            'data-title':document.title,
+            'data-url':window.location.href
+        });
+
     });
 
 })(jQuery);

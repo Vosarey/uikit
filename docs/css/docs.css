@@ -256,7 +256,7 @@ html {
 .tm-footer a { color: #ddd !important; }
 .tm-footer a:hover { color: #fff !important; }
 
-#goTop{ display: none; position: fixed; right: 30px; bottom: 30px; }
+#goTop{ display: none; position: fixed; right: 30px; bottom: 30px; z-index: 999; }
 
 
 /* UIkit component modifiers
